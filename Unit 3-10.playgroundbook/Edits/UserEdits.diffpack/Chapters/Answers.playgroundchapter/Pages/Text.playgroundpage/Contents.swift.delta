@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Made by Benjamin H
+// Made on Nov 1 2018
+// Made for: ICS3U
+// Made to calculate the factorial of a given number
+
+var amountOfMarks = 0
+var total = 0
+var lastMark = 0
+
+
+while lastMark &gt;= 0 {
+    show("Type mark here:")
+    lastMark = askForNumber()
+    if lastMark &gt;= 0 {
+        amountOfMarks += 1
+        total = total + lastMark
+    }
+}
+let average = total / amountOfMarks
+show("Your average mark is %\(average)")
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 420}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 72}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
